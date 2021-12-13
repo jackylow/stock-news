@@ -15,7 +15,7 @@ NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 parameters_for_stock = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK_NAME,
-    "apikey": "5WHEN3MFHYVMMY9L"
+    "apikey": "**key**"
 }
 response = requests.get(STOCK_ENDPOINT, params=parameters_for_stock)
 data = response.json()
